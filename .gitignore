@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.xlsx
+*.json
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
